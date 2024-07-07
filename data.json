@@ -1,0 +1,10 @@
+{
+    "environment": [
+      { "timestamp": "2024-07-01T08:00:00Z", "temperature": "24°C", "humidity": "65%", "airPressure": "1012 hPa" },
+      { "timestamp": "2024-07-01T09:00:00Z", "temperature": "25°C", "humidity": "60%", "airPressure": "1013 hpa" },
+      { "timestamp": "2024-07-01T10:00:00Z", "temperature": "26°C", "humidity": "58%", "airPressure": "1011 hPa" },
+      { "timestamp": "2024-07-01T11:00:00Z", "temperature": "27°C", "humidity": "55%", "airPressure": "1010 hPa" },
+      { "timestamp": "2024-07-01T12:00:00Z", "temperature": "28°C", "humidity": "50%", "airPressure": "1009 hPa" }
+    ]
+  }
+  

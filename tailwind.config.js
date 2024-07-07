@@ -16,6 +16,10 @@ module.exports = {
     screens: {
         '2xl' : '1320px',
       },
+      letterSpacing: {
+        tanpaspasi:'-0.5em',
+        spasi: '.5em',
+      },
     },
   },
   plugins: [],
