@@ -48,29 +48,22 @@
     </header>
      <!-- Header end -->
      <!-- Hero Section Start -->
-      <section id="home" class="pt-36">
+      <section id="home" class="pt-0">
         <div class="container">
             <div class="flex flex-wrap">
                 <div class="w-full self-center px-4 lg:w-1/2">
-                    <h1 class="text-base font-semibold text-primary md:text-xl">Selamat Datang 👋 di <span class="block font-extrabold uppercase text-primary text-4xl mt-1 mb-2 lg:text-5xl">Sistem Monitoring Lingkungan</span></h1>
-                    <h2 class="font-medium text-primary text-lg mb-5 lg:text-2xl">SMP Islam Internasional <span class="text-dark">Al Abidin Boyolali</span></h2>
+                    <h1 class="text-base font-semibold text-primary md:text-xl">Selamat Datang 👋 di <span class="block font-extrabold uppercase text-slate-700 text-4xl mt-1 mb-2 lg:text-5xl">Sistem Monitoring Lingkungan</span></h1>
+                    <a href="https://smpiiboyolali.alabidin.sch.id/" target="_blank"><h2 class="font-semibold text-primary text-lg mb-5 lg:text-2xl">SMP Islam Internasional <span class="text-slate-700">Al Abidin Boyolali</span></h2></a>
                     <p class="font-medium text-secondary mb-10 leading-relaxed"> Sistem monitoring lingkungan berbasis web adalah sebuah aplikasi yang dirancang 
                         untuk memantau kondisi lingkungan melalui internet.<span class="text-primary font-bold"> Menggunakan TailwindCSS & Data Dummy JSON</span></p>
-                    <a href="" class="text-base font-semibold text-white
+                    <a href="#suhu" class="text-base font-semibold text-white
                     bg-primary py-3 px-8 rounded-full hover:shadow-lg 
-                    hover:opacity-80 transition duration-300 ease-in-out"> Hubungi Saya</a>
+                    hover:opacity-80 transition duration-300 ease-in-out">Cek Suhu</a>
                 </div>
-                <div class="w-full self-end px-4 lg:w-1/2">
-                    <div class="relative mt-10 lg:mt-9 lg:right-0">
-                        <img src="src/img/globe.svg" alt="Zeni Prasetyo" 
+                <div class="w-full self-end px-12 lg:w-1/2">
+                    <div class="relative mt-0 lg:mt-0 lg:right-0">
+                        <img src="src/img/bghome.png" alt="bghome" 
                         class="max-w-full mx-auto"/>
-                        <span class="absolute -bottom-20 -z-10 left-1/2 -translate-x-1/2 md:scale-150">
-                            <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                                <path fill="#14b8a6" 
-                                d="M52.6,-56.3C63.6,-53.4,64.9,-32.5,60.5,-16.7C56.1,-0.8,46.1,10,37.5,18.7C29,27.4,21.8,33.9,14.4,34.4C6.9,34.9,-0.9,29.4,-17.4,30.7C-33.9,32.1,-59.1,40.4,-63.4,35.4C-67.6,30.5,-50.8,12.2,-43.1,-3.4C-35.3,-19.1,-36.7,-32.2,-31,-36C-25.3,-39.9,-12.7,-34.5,4.1,-39.3C20.8,-44.2,41.6,-59.2,52.6,-56.3Z" 
-                                transform="translate(100 100) scale(1.1)" />
-                            </svg>
-                        </span>
                     </div>
                 </div>
             </div>
@@ -91,11 +84,11 @@
             </div>
             <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
                 <div class="mb-12 p-4 md:w-1/2">
-                    <div class="rounded-lg bg-white shadow-lg">
+                    <div class="rounded-lg bg-white shadow-lg ">
                         <div class="flex flex-col items-center py-10 px-10">
                             <img class="w-full" src="src/img/suhu.svg" alt="suhu">
-                            <p id="temperature" class="text-center font-extrabold text-6xl mt-2 text-gray"></p>
-                            <p id="las" class="text-center font-extrabold text-lg mt-2 text-gray">Last Updated: <span id="lastUpdated"></span></p>
+                            <p id="temperature" class="text-center font-extrabold text-6xl mt-2 text-slate-700"></p>
+                            <p class="text-center font-extrabold text-lg mt-2 text-slate-700">Last Updated: <span id="lastUpdated"></span></p>
                         </div>
                     </div>
                 </div>
@@ -103,7 +96,6 @@
         </div>
        </section>
        <!-- Suhu Section End -->
-
        <!-- Kelembaban Section Start -->
        <section id="kelembaban" class="pt-32 pb-32 bg-slate-700">
         <div class="container">
@@ -121,7 +113,7 @@
                     <div class="rounded-lg bg-white shadow-lg">
                         <div class="flex flex-col items-center py-10 px-10">
                             <img class="w-full" src="src/img/humidity.svg" alt="kelembaban">
-                            <p id="humidity" class="text-center font-extrabold text-6xl mt-2 text-gray"></p>
+                            <p id="humidity" class="text-center font-extrabold text-6xl mt-2 text-slate-700"></p>
                         </div>
                     </div>
                 </div>
@@ -146,7 +138,7 @@
                         <div class="rounded-lg bg-white shadow-lg">
                             <div class="flex flex-col items-center py-10 px-10">
                                 <img class="w-full" src="src/img/airpresure.svg" alt="kelembaban">
-                                <p id="airPressure" class="text-center font-extrabold text-6xl mt-2 text-gray"></p>
+                                <p id="airPressure" class="text-center font-extrabold text-6xl mt-2 text-slate-700"></p>
                             </div>
                         </div>
                     </div>
@@ -157,18 +149,42 @@
         <!-- Footer Start -->
          <footer id="Kontak" class="bg-dark pt-14 pb-12">
             <div class="container">
-                <div class="flex flex-wrap">
-                    <div class="w-full px-4 mb-6 text-slate-300 font-medium md:w-1/3">
-                        <h2 class="font-bold mb-2 text-3xl text-white">SMP AL ABIDIN BOYOLALI</h2>
+                <!-- <div class="flex flex-wrap"> -->
+                    <div class="w-full px-4 mb-6 text-slate-300 font-medium md:w-1/2">
+                        <h2 class="font-bold mb-2 text-3xl text-white">Sistem Monitoring Lingkungan</h2>
                         <h3 class="font-bold text-2xl mb-2">Hubungi Kami</h3>
-                        <p class="font-semibold mb-2">JL. Raya Boyolali - Klaten, Gerit, Mojosongo, Badranrejo, Jomboran, Kemiri, Kec. Boyolali, Kabupaten Boyolali, Jawa Tengah 57482</p>
-                        <p class="font-semibold mb-2">(+62)81235672593</p>
-                        <p class="font-semibold mb-2">zeni@alabidin.sch.id</p>
+                    </div>
+                    <div class="flex flex-row gap-5 p-5">
+						<div class="w-10 h-10 p-2 bg-blue-100 rounded-2xl">
+							<img class="w-full" src="src/img/pin.svg" alt="pin">
+						</div>
+						<div>
+							<h4 class="text-lg text-white font-medium">Address</h4>
+							<h5 class="font-base text-white">JL. Raya Boyolali - Klaten, Gerit, Mojosongo, Badranrejo, Jomboran, Kemiri, Kec. Boyolali, Kabupaten Boyolali, Jawa Tengah 57482</h5>
+						</div>
+					</div>
+                    <div class="flex flex-row gap-5 p-5">
+                        <div class="w-10 h-10 p-2 bg-blue-100 rounded-2xl">
+                            <img class="w-full" src="src/img/phone call.svg" alt="">
+                        </div>
+                        <div>
+                            <h4 class="text-lg text-white font-medium">Phone Call</h4>
+                            <h5 class="font-base text-white">(+62)81235672593</h5>
+                        </div>
+                    </div>
+                    <div class="flex flex-row gap-5 p-5">
+                        <div class="w-10 h-10 p-2 bg-blue-100 rounded-2xl">
+                            <img class="w-full" src="src/img/mail.svg" alt="">
+                        </div>
+                        <div>
+                            <h4 class="text-lg text-white font-medium">E-Mail</h4>
+                            <h5 class="font-base text-white">zeni@alabidin.sch.id</h5>
+                        </div>
                     </div>
                 <div class="w-full pt-10 border-t border-slate-700">
                     <div class="flex items-center justify-center mb-5">
                         <!-- youtube -->
-                         <a href="https://yputube.com/zeniprasetyo" target="_blank" class="w-9 h-9 mr-3 rounded-full flex 
+                         <a href="https://www.youtube.com/channel/UCCLBVOTURLismp32FaBrhTQ" target="_blank" class="w-9 h-9 mr-3 rounded-full flex 
                          justify-center items-center border border-slate-300 text-slate-300
                          hover:border-primary hover:bg-primary hover:text-white">
                             <svg role="img" class="fill-current" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -200,7 +216,7 @@
                         <a href="https://instagram.com/zeni_prasetyo" target="_blank" 
                         class="font-bold text-primary">Zeni Prasetyo</a>, Menggunakan 
                         <a href="https://tailwindcss.com" target="_blank" class="font-bold text-sky-500">Tailwind CSS</a></p>
-                </div>
+                <!-- </div> -->
             </div>
          </footer>
         <!-- Footer End -->
